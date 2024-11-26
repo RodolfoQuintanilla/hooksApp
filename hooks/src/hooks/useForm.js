@@ -16,9 +16,9 @@ const useForm = (inicialForm = {}) => {
 
     function onResetForm() {
 
-        setFormState({
+        setFormState(
             inicialForm
-        })
+        )
 
     }
 
