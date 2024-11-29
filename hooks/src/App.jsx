@@ -1,7 +1,6 @@
 
-import FormaSimple from "./components/useEffect/FormaSimple"
-import FormaWithCustomHook from "./components/useEffect/FormaWithCustomHook"
-import Message from "./components/useEffect/Message"
+import MultipleCustomHook from "./components/examples/MultipleCustomHook"
+
 
 
 function App() {
@@ -9,11 +8,11 @@ function App() {
 
   return (
     <>
-      <h1>Hola</h1>
       {/* <ConterApp/> */}
       {/* <CounterWhitCustomHook /> */}
       {/*   <FormaSimple />  */}
-      <FormaWithCustomHook />
+      {/* <FormaWithCustomHook /> */}
+      <MultipleCustomHook />
     </>
   )
 }
