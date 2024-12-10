@@ -1,5 +1,7 @@
 
-import MultipleCustomHook from "./components/examples/MultipleCustomHook"
+import { Padre } from "./components/07-tarea-memo/Padre"
+import CallbackHook from "./components/memos/CallbackHook"
+import MemoHook from "./components/memos/MemoHook"
 
 
 
@@ -12,7 +14,12 @@ function App() {
       {/* <CounterWhitCustomHook /> */}
       {/*   <FormaSimple />  */}
       {/* <FormaWithCustomHook /> */}
-      <MultipleCustomHook />
+      {/*  <MultipleCustomHook /> */}
+      {/* <Layaut /> */}
+      {/*   <Memos/> */}
+      {/*   <MemoHook/>
+     */}
+      <Padre/>
     </>
   )
 }
